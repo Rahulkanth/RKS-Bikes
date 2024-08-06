@@ -1,17 +1,30 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
 
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0%;
+    padding-top: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+}
 
 .emoji{
     background-size: auto;
     font-size: 55px;
     background-color: rgb(144, 171, 89);
     text-align: center;
-    display: flex;
-    
-    
 }
 
 .logo2{
-    
     font-size: 60px;
     color: orangered;
     background: none;
@@ -57,6 +70,12 @@ img{
     display: block;
 }
 
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0%;
+}
+
 
 
 h6{
@@ -84,9 +103,18 @@ button{
     background: blue;
 }
 
+@media(max-width:1000px) {
+    .content1{
+        width: 45px;
+    }
+    
+}
+
+
+
 @media(max-width:750px) {
-    .content{
-        width: 100px;
+    .content1{
+        width: 100%;
     }
     
 }
