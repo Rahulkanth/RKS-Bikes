@@ -20,6 +20,7 @@ a{
 .emoji{
     background-size: auto;
     font-size: 55px;
+    display: flex;
     background-color: rgb(144, 171, 89);
     text-align: center;
 }
@@ -113,8 +114,33 @@ button{
 
 
 @media(max-width:1370px) {
+    .emoji{
+        width: 100%;
+        display: flex;
+        padding-top: 20px;
+        background-size: contain;
+        font-size: 40px;
+        background-color: rgb(144, 171, 89);
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:1370px) {
     .content1{
-        width: 400px;
+        width: 100%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+        0 10px 10px rgba(0,0,0,0.22);
+        transition: .4s;
+        background: #f2f2f2;
+        
     }
     
 }
